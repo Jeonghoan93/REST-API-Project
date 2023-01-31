@@ -1,0 +1,24 @@
+GET http://localhost:3000/subscribers 
+
+### 
+
+GET http://localhost:3000/subscribers/63d844abb604f896a597d324
+
+###
+
+POST http://localhost:3000/subscribers
+content-Type: application/json
+
+{
+    "name": "Jimmt",
+  "subscribedToChannel": "Web Dev Simplified"
+}
+
+### 
+
+DELETE http://localhost:3000/subscribers/63d844abb604f896a597d324
+
+
+###
+
+PATCH http://localhost:3000/subscribers/63d842c3b965c910bb5c47a4
